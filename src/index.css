@@ -1,0 +1,254 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.outer-div {
+      padding: 10px;
+      background-color: #F5F5F5;
+      display: grid;
+      place-items: center;
+      height: 100vh;
+} 
+
+.font-color{
+  color:rgb(108, 43, 217);
+}
+
+.weight{
+  font-weight: 500
+}
+
+.font-color-two{
+  color:rgba(156, 163, 175, 1);
+}
+
+.weight-two{
+  font-weight: 400
+}
+.card {
+      height: 1072px;
+      width: 376px;
+      left: 60px;
+      top: 0px;
+      border-radius: 0px;
+      padding: 32px 15px;
+      flex-direction: column;
+      align-items: center;
+      padding: 32px 15px;
+      gap: 16px;
+      left: 13.76%;
+      right: 0%;
+      top: 0%;
+      bottom: 0%;
+      background: #FFFFFF;
+      border: 1px solid rgba(229, 231, 235, 0.5);
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px -1px rgba(0, 0, 0, 0.1);
+    }
+
+    .logos{
+      flex: 85%;
+    }
+
+    .pad {
+      padding: 4px;
+    }
+
+    .header{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      margin-left: 10px;
+    }
+
+    .header-right{
+      display: flex;
+      flex: 15%;
+      flex-direction: row;
+      align-items: space-around;
+      justify-content: space-between;
+    
+     margin-right: 15px;
+    
+    }
+
+    .segment{
+    border-bottom:  2px solid rgb(229, 231 , 235);
+    }
+
+    .segment-main-div{
+      display: flex;
+      flex-direction:row;
+     align-items: center;
+     justify-content: flex-start;
+     margin-top: 20px;
+
+    }
+
+    .segment-img{
+      height: 18px;
+      width: 18px;
+    }
+
+    .segment-div {
+      flex: 33%;
+      align-items: center;
+      justify-content: space-around;
+      padding-top:10px;
+      padding-bottom: 0px;
+      
+    }
+
+    .segment-item{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+     
+    }
+
+    #bottom-border{
+ border-bottom:  2px solid rgb(108, 43, 217);
+    }
+
+
+    .profile{
+      margin: 20px 0 0 0;
+      display: flex;
+      align-items: stretch;
+      justify-content: space-around ;
+    }
+
+    .profile-first-section{
+      display: flex;
+      flex: 20%;
+     
+      padding: 20px 0;
+    }
+
+.profile-second-section{
+      display: flex;
+      flex: 80%;
+       padding: 20px 0;
+        flex-direction: column;
+    }
+
+  .profile-social{
+    display: flex;
+    flex: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .social-icons {
+    height: 25px;
+    width: 25px;
+  }
+
+  .save-contact{
+    display: flex;
+    margin-left: 10px;
+   
+  }
+
+  .profile-image{
+    height: 100px;
+    width: 100px;
+  }
+
+  .save-contact-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(108, 43, 217);
+    height: 40px;
+    width: 150px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    transition: transform 250ms;
+  }
+
+  .save-contact-text{
+    color:white;
+  }
+
+  .designation-section{
+    margin:-10px 10px 0 10px
+  }
+
+  .ceo{
+    margin-top: -20px;
+  }
+
+  .profile-desc{
+     margin-top: -5px;
+  }
+
+  h3{padding: 0;}
+
+
+.user-info{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 0 10px;
+
+}
+
+
+.user-info-first{
+  display: flex;
+  flex: 50%;
+  flex-direction: row;
+  align-items: center;
+  justify-content:flex-start;
+  
+  
+}
+
+.user-info-second{
+    display: flex;
+  flex: 50%;
+  justify-content: flex-end;
+}
+
+.user-info-text{
+  padding-left: 10px;
+}
+
+
+.user-skill-first{
+    display: flex;
+  flex: 20%;
+  flex-direction: row;
+  align-items: center;
+  justify-content:flex-start;
+
+}
+
+.user-skill-second{
+ display: flex;
+ flex-direction: column;
+  flex: 80%;
+  text-align: end;
+}
+
+.save-contact-btn:hover {
+transform: scale(1.1);
+}
+
+
+
+
